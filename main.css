@@ -748,6 +748,13 @@ a:not([href]):not([tabindex]):hover {
     }
 }
 @media only screen and (max-width: 375px) {
+    .social-icons{
+        margin-left: -10px !important;
+    }
+    #down-res{
+        margin-left: 28px !important;
+        margin-top: 10vh !important;
+    }
     #contact-1 {
         display: inline;
     }
@@ -765,12 +772,12 @@ a:not([href]):not([tabindex]):hover {
     }
 
     #contact-msg-box {
-        width: 22em;
+        width: 22em !important;
         height: 7em;
     }
 
     .contact-part-2-area {
-        width: 300px;
+        width: 300px !important;
         margin-left: 8vw;
         margin-bottom: 4vh;
     }
@@ -813,6 +820,9 @@ a:not([href]):not([tabindex]):hover {
 }
 
 @media only screen and (max-width: 320px) {
+    #down-res{
+        margin-left: 5px !important;
+    }
     #contact-1 {
         display: inline;
     }
@@ -842,6 +852,28 @@ a:not([href]):not([tabindex]):hover {
 
     #contact-heading-2 {
         margin-left: 8vw;
+    }
+}
+@media only screen and (max-width: 512px){
+    .social-icons{
+        margin-left: -40px !important;
+    }
+    #down-res{
+        margin-left: 90px !important;
+    }
+    #contact-1 {
+        display: inline !important;
+    }
+    #contact-email{
+        width: 220px !important;
+    }
+    .contact-part-2-area{
+        width: 420px !important;
+        margin-left: 9vw !important;
+        margin-bottom: 4vh !important;
+    }
+    #contact-heading-2{
+        margin-left: 10vw !important;
     }
 }
 
