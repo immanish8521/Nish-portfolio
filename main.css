@@ -764,7 +764,36 @@ a:not([href]):not([tabindex]):hover {
 
 
 /* ------------------------media querries-------------start----------------------------- */
-
+@media only screen and (max-width: 600px){
+    #social-icon-1{
+        margin-left: 0;
+        margin-left: 160px;
+    }
+    #down-res{
+        margin-left: 0;
+        margin-left: 130px;
+    }
+    #contact-1{
+        display: inline;
+    }
+    #contact-name{
+        width: 35em;
+    }
+    #contact-email{
+        width: 35em;
+        margin-left: 8vw;
+    }
+    #contact-subject{
+        width: 35em;
+    }
+    #contact-msg-box{
+        width: 35em;
+    }
+    .contact-part-2{
+        margin-left: 5vw;
+        margin-bottom: 4vh;
+    }
+}
 
 
 @media only screen and (max-width: 414px) {
@@ -777,7 +806,9 @@ a:not([href]):not([tabindex]):hover {
         margin-top: 10vh !important;
         margin-left: 13vw !important;
     }
-
+    /* .main-content{
+        text-align: center !important;
+    } */
     #contact-1 {
         display: inline;
     }
@@ -796,6 +827,9 @@ a:not([href]):not([tabindex]):hover {
     #contact-msg-box {
         width: 25em !important;
         height: 7em;
+    }
+    .contact-part-2{
+        margin-left: 0;
     }
 
     .contact-part-2-area {
@@ -838,6 +872,9 @@ a:not([href]):not([tabindex]):hover {
     #contact-msg-box {
         width: 308px !important;
     }
+    .contact-part-2{
+        margin-left: 0;
+    }
 
     .contact-part-2-area {
         width: 300px !important;
@@ -876,7 +913,9 @@ a:not([href]):not([tabindex]):hover {
         width: 22em !important;
         height: 7em !important;
     }
-
+    .contact-part-2{
+        margin-left: 0;
+    }
     .contact-part-2-area {
         width: 300px !important;
         margin-left: 8vw;
@@ -894,7 +933,6 @@ a:not([href]):not([tabindex]):hover {
     #down-res {
         margin-left: 5px !important;
     }
-
     #contact-1 {
         display: inline;
     }
@@ -915,7 +953,9 @@ a:not([href]):not([tabindex]):hover {
         width: 19em !important;
         height: 7em !important;
     }
-
+    .contact-part-2{
+        margin-left: 0;
+    }
     .contact-part-2-area {
         width: 270px !important;
         margin-left: 8vw;
