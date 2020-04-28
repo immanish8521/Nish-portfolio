@@ -794,7 +794,34 @@ a:not([href]):not([tabindex]):hover {
         margin-bottom: 4vh;
     }
 }
-
+@media only screen and (max-width: 480px){
+    #social-icon-1{
+        margin-left: 0;
+        margin-left: 110px;
+    }
+    #down-res{
+        margin-left: 0;
+        margin-left: 75px;
+    }
+    #contact-1{
+        display: inline;
+    }
+    #contact-name{
+        width: 28em;
+    }
+    #contact-email{
+        width: 28em;
+    }
+    #contact-subject{
+        width: 28em;
+    }
+    #contact-msg-box{
+        width: 28em;
+    }
+    .contact-part-2-area{
+        width: 28em;
+    }
+}
 
 @media only screen and (max-width: 414px) {
     #social-icon-1 {
