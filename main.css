@@ -258,7 +258,6 @@ html {
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 20px;
-    /* margin-left: 30vw; */
     margin-top: 5vh;
     cursor: pointer;
     transition: all .5s ease;
@@ -498,41 +497,19 @@ button:focus {
 }
 @media only screen and (max-width: 320px){
     #social-icon-1 {
-        margin-left: -20vw !important;
+        /* margin-left: -20vw !important; */
     }
     #down-res{
-        margin-left: 0 !important;
+        /* margin-left: 0 !important; */
     }
 
 }
-@media only screen and (max-width: 360px){
-    .main-body h1 {
-        font-size: 35px !important;
-        margin-bottom: 5vh;
-    }
-    #social-icon-1 {
-        margin-left: 0px;
-        margin-left: 17vw !important;
 
-    }
-    #down-res {
-        margin-left: 0vw !important;
-        margin-left: 6vw !important;
-    }
-}
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 650px){
     .main-body h1{
         font-size: 50px;
     }
-    #social-icon-1{
-        margin-left: 0px;
-        margin-left: 20vw;
-
-    }
-    #down-res{
-        margin-left: 0;
-        margin-left: 12vw;
-    }
+    
 }
 
 
@@ -832,12 +809,12 @@ a:not([href]):not([tabindex]):hover {
 /* ------------------------media querries-------------start----------------------------- */
 @media only screen and (max-width: 600px){
     #social-icon-1{
-        margin-left: 0;
-        margin-left: 160px;
+        /* margin-left: 0;
+        margin-left: 160px; */
     }
     #down-res{
-        margin-left: 0;
-        margin-left: 130px;
+        /* margin-left: 0;
+        margin-left: 130px; */
     }
     #contact-1{
         display: inline;
@@ -862,12 +839,12 @@ a:not([href]):not([tabindex]):hover {
 }
 @media only screen and (max-width: 480px){
     #social-icon-1{
-        margin-left: 0;
-        margin-left: 110px;
+        /* margin-left: 0;
+        margin-left: 110px; */
     }
     #down-res{
-        margin-left: 0;
-        margin-left: 75px;
+        /* margin-left: 0;
+        margin-left: 75px; */
     }
     #contact-1{
         display: inline;
@@ -891,13 +868,13 @@ a:not([href]):not([tabindex]):hover {
 
 @media only screen and (max-width: 414px) {
     #social-icon-1 {
-        margin-left: 80px !important;
+        /* margin-left: 80px !important; */
     }
 
     #down-res {
-        margin: 0 !important;
+        /* margin: 0 !important;
         margin-top: 10vh !important;
-        margin-left: 13vw !important;
+        margin-left: 13vw !important; */
     }
     /* .main-content{
         text-align: center !important;
@@ -938,12 +915,12 @@ a:not([href]):not([tabindex]):hover {
 
 @media only screen and (max-width: 375px) {
     #social-icon-1 {
-        margin-left: 60px !important;
+        /* margin-left: 60px !important; */
     }
 
     #down-res {
-        margin-left: 30px !important;
-        margin-top: 10vh !important;
+        /* margin-left: 30px !important;
+        margin-top: 10vh !important; */
     }
 
     #contact-1 {
@@ -983,11 +960,11 @@ a:not([href]):not([tabindex]):hover {
 
 @media only screen and (max-width: 360px) {
     #social-icon-1 {
-        margin-left: 60px !important;
+        /* margin-left: 60px !important; */
     }
 
     #down-res {
-        margin-left: 2px;
+        /* margin-left: 2px; */
     }
 
     #contact-1 {
@@ -1021,10 +998,10 @@ a:not([href]):not([tabindex]):hover {
 }
 @media only screen and (max-width: 320px) {
     #social-icon-1{
-        margin-left: 40px !important;
+        /* margin-left: 40px !important; */
     }
     #down-res {
-        margin-left: 5px !important;
+        /* margin-left: 5px !important; */
     }
     #contact-1 {
         display: inline;
