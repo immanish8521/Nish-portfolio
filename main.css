@@ -807,7 +807,11 @@ a:not([href]):not([tabindex]):hover {
 
 
 /* ------------------------media querries-------------start----------------------------- */
+
 @media only screen and (max-width: 600px){
+    .main-body h2{
+        padding-top: 5rem;
+    }
     #social-icon-1{
         /* margin-left: 0;
         margin-left: 160px; */
