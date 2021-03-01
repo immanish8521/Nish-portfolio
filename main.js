@@ -5,19 +5,31 @@ function home() {
         behavior: "smooth"
     });
 }
-function projects() {
+const About = () => {
     window.scrollTo({
         top: 700,
+        behavior: "smooth"
+    });
+}
+function projects() {
+    window.scrollTo({
+        top: 1300,
         left: 0,
         behavior: "smooth"
     });
 }
 function contact() {
     window.scrollTo({
-        top: 1200,
+        top: 1800,
         left: 0,
         behavior: "smooth"
     });
+}
+
+//Loader
+var preLoader = document.getElementById('loader');
+function myLoader() {
+    preLoader.style.display = "none";
 }
 
 // nav-bar-start
@@ -128,9 +140,9 @@ open.addEventListener("click", function () {
         var duration = 500;
         $(window).scroll(function () {
             if ($(this).scrollTop() > offset) {
-                $('.back-to-top').fadeIn(400);
+                $('.back-to-top').fadeIn(600);
             } else {
-                $('.back-to-top').fadeOut(400);
+                $('.back-to-top').fadeOut(600);
             }
         });
 
@@ -154,6 +166,17 @@ open.addEventListener("click", function () {
 
 
 // scrollTop
+//Get the button
+$(window).scroll(function(){
+		if($(this).scrollTop()>100){
+			$(".back-to-top").fadeIn();
+		}else{
+			$(".back-to-top").fadeOut();
+		}
+	});
+	$(".back-to-top").click(function(){
+		$("html, body").animate({scrollTop:0},1000)
+	})
 
 // ===== Scroll to Top ==== 
 

@@ -13,6 +13,8 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -38,8 +40,12 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 
 </head>
-<body>
+<body onload="myLoader()">
+    
+
+    <div id="loader"></div>
     <!-- navlink start -->
+    <div data-aos="fade-right">
         <header>
             <div class="menu-toggle" id="hamburger">
                 <i class="fas fa-bars"></i>
@@ -51,6 +57,7 @@
                     <h1 class="brand"><a href="index.html"><img src="images/logo.png" alt="">an<span>i</span>sh</a></h1>
                     <ul id="nav-list">
                         <li><a onclick="home()" href="#">Home</a></li>
+                        <li><a onclick="About()" href="#">About</a></li>
                         <li onclick="projects()"><a onclick="projects()" href="#">Projects</a></li>
                         <li onclick="contact()"><a onclick="contact()" href="#">Contact</a></li>
                     </ul>
@@ -73,13 +80,42 @@
                 </div>
             </div>
         </header>
+    </div>
     <!-- navlink end -->
 
     <!-- about start -->
-
+    <div data-aos="fade-right">
+        <section id="About">
+            <div class="main_about_page">
+                <h1>About</h1>
+                <div class="main_about_body">
+                    <div class="about_first_half">
+                        <h3>About Me</h3>
+                        <p>
+                            I am an enthusiastic and driven Computer science and engineering graduate from the Srm institute of science and technology, Chennai.
+                            I am currently looking to secure a Front-end Developer position to utilize my strong problem solving skills and front-end technology
+                            knowledge.
+                        </p>
+                    </div>
+                    <div class="about_second_half">
+                        <h3>Skills</h3>
+                        <label class="skill-container" for="file"><b>HTML/CSS3</b></label><span>90%</span><br>
+                        <progress id="file" value="90" max="100"> 90% </progress><br>
+                        <label for="file"><b>JavaScript</b></label><span>80%</span><br>
+                        <progress id="file" value="80" max="100"> 80% </progress><br>
+                        <label for="file"><b>React Js</b></label><span>70%</span><br>
+                        <progress id="file" value="70" max="100"> 70% </progress><br>
+                        <label for="file"><b>Redux</b></label><span>60%</span><br>
+                        <progress id="file" value="60" max="100"> 60% </progress><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <!-- about-end -->
 
     <!-- portfolio start -->
+    <div data-aos="zoom-in-out">
     <section id="portfolios" class="section-padding">
         <!-- Container Starts -->
         <div class="container">
@@ -105,7 +141,7 @@
                 </div>
     
                 <!-- Portfolio Recent Projects -->
-                <div id="portfolio" class="row wow fadeInDown" data-wow-delay="0.4s">
+                <div id="portfolio" class="row wow fadeInDown" data-wow-delay="1s">
                     <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix development print">
                         <div class="portfolio-item">
                             <div class="shot-item">
@@ -164,10 +200,12 @@
         </div>
         <!-- Container Ends -->
     </section>
+    </div>
     <!-- Portfolio Section Ends -->
 
     <!-- contact-form- -->
-    
+    <div data-aos="fade-right">
+        
     <section id="contact-1">
         <div class="contact-part-1">
             <h4 id="contact-heading-1">Contact form</h4>
@@ -190,6 +228,7 @@
         </div>
 
     </section>
+    </div>
 
     <section id="footer">
         <div class="footer-icons">
@@ -204,7 +243,7 @@
     </section>
 
     <!-- scroll-to-top -->
-
+        <p class="back-to-top">ᐱ</p>
 
 
 
@@ -222,8 +261,13 @@
     <script src="js/nivo-lightbox.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/form-validator.min.js"></script>
+    <!-- <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.min.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/map.js"></script> -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
