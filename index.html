@@ -66,7 +66,8 @@
                 <div class="main-body">
                     <h2>Hi This is</h2>
                     <h1>MANISH <span>PATHAK</span></h1>
-                    <h2 id="main-header">Web Developer</h2>
+                    <!-- <h2 id="main-header">Web Developer</h2> -->
+                    <h2 id="main-header">I'M <span class="animate"></span></h2>
                 </div>
                 <div class="social-icons">
                     <a href="https://github.com/immanish8521" target="_blank"><i id="social-icon-1" class="fab fa-github"></i></a>
@@ -265,9 +266,24 @@
     <script src="js/contact-form-script.min.js"></script>
     <script src="js/map.js"></script> -->
 
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed(".animate", {
+            strings: [
+                "Web Developer",
+                "Frontend Developer",
+            ],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+        })
     </script>
 </body>
 </html>
